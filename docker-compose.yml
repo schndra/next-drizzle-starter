@@ -1,0 +1,25 @@
+# Use postgres/example user/password credentials
+version: "3.9"
+
+services:
+  drizzle-app-db:
+    image: postgres
+    restart: always
+    container_name: dirzzle-app-db
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_USER: ellouser
+      POSTGRES_PASSWORD: example
+      POSTGRES_DB: testdb
+
+volumes:
+  postgres:
+  # adminer:
+  #   image: adminer
+  #   restart: always
+  #   ports:
+  #     - 8080:8080
+
