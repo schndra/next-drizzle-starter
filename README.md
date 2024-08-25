@@ -1,3 +1,23 @@
+## Overview
+
+**next-drizzle-starter** is a robust and scalable starter template designed for full-stack applications using Next.js. This template integrates Drizzle as the ORM for efficient database management and Docker for initializing a local PostgreSQL database.
+
+## Features
+
+- **Next.js:** A versatile React framework for server-side rendering and static site generation.
+- **Drizzle:** A type-safe ORM for seamless database interactions.
+- **ShadCN UI:** Customizable UI components that integrate seamlessly with your design system.
+- **TailwindCSS:** A utility-first CSS framework for rapid UI development.
+- **Lucia Auth:** A simple and flexible authentication system (optional, can be replaced with NextAuth).
+
+## Todo
+
+- [x] Setup GitHub repository.
+- [x] Add `docker-compose.yml` for local PostgreSQL.
+- [x] Initialize project with ShadCN UI, TailwindCSS, and Drizzle.
+- [ ] Add authentiaction (lucia).
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
