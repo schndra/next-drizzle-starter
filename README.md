@@ -15,8 +15,8 @@
 - [x] Setup GitHub repository.
 - [x] Add `docker-compose.yml` for local PostgreSQL.
 - [x] Initialize project with ShadCN UI, TailwindCSS, and Drizzle.
-- [ ] Add authentiaction (lucia).
-
+- [x] Add authentiaction (lucia).
+- [ ] Add google login
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
